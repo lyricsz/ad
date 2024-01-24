@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+    color: antiquewhite;
+    text-shadow: 1px -1px 3px rgb(103, 28, 1);
+    transition: all .3s;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(158, 79, 79);
+    width: 100%;
+}
+
+p{
+    text-indent: 55px;
+    font-size: x-large;
+    color: antiquewhite;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:auto
+}
+header{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: hidden;
+    background-color: rgb(127, 73, 73);
+}
+
+h1{
+    display: inline-block;
+    width: 50vw;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    top: 0;
+}
+
+h1 a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+a{
+    color: antiquewhite;
+}
+
+ header ul{
+    display: inline-block;
+    width: 40vw;
+    background-color: transparent;
+    list-style-type: circle;
+    list-style: none;
+    list-style-image: url();
+    margin: 0;
+}
+header li{
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+    width: 10vw;
+}
+
+fieldset{
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+main, fieldset{
+    margin: 0;
+    background-color: rgb(117, 54, 54);
+}
+
+
+
+h1:hover, h2:hover, h3:hover {
+    background-color: tomato;
+    box-shadow: 2px -2px 25px crimson;
+    letter-spacing: 6px;
+}
+
+
+footer ul{
+    display: inline-block;
+    width: 100vw;
+    background-color: rgb(127, 73, 73);
+    list-style-type: circle;
+    margin: 0;
+    text-align: center;
+}
+footer li{
+    padding-top: 12px;
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+    width: 20vw;
+}
+
+h2{
+    margin: 0;
+}
+main, fieldset{
+    padding: 0;
+    margin: 0;
+}
+
+fieldset{
+    border: none;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+
+p{
+    display: block;
+    margin-left: 2px;
+    margin-right: 10px;
+    line-break: loose;
+}
